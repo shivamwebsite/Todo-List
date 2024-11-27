@@ -1,5 +1,5 @@
 import React from 'react'
-import './Navbaar.css'
+import './navbaar.css'
 import { RxDragHandleHorizontal } from "react-icons/rx";
 function navbaar() {
 
