@@ -98,10 +98,10 @@ function App() {
         <div className="addtodo">
           <h1 className='font-bold text-xl'>Add a Todo</h1>
           <input className='rounded-xl w-1/2 px-2 py-1 my-5' type="text" value={todo} onChange={handlechange} />
-          {/* {
+          {
             todo.length > 3 ? <button className='rounded-3xl mx-3 bg-blue-400 px-5 py-2 hover:bg-blue-600 hover:font-bold' onClick={handleAdd}>Add</button> : ""
-          } */}
-          <button disabled={todo.length<=3} className='disabled:bg-black disabled:text-white rounded-3xl mx-3 bg-blue-400 px-5 py-2 hover:bg-blue-600 hover:font-bold' onClick={handleAdd}>Add</button>
+          }
+{/*           <button disabled={todo.length<=3} className='disabled:bg-black disabled:text-white rounded-3xl mx-3 bg-blue-400 px-5 py-2 hover:bg-blue-600 hover:font-bold' onClick={handleAdd}>Add</button> */}
         </div>
         <input type="checkbox" checked={showfinished} onChange={togglefinish}  name="" id="" /> Show Finish
         <div className='h-[1px] bg-black opacity-20 my-2 w-full mx-auto'></div>
